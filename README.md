@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 - ⚗️ I’m currently working on a GitHub clone for medical research for researchers to use for version control, collaboration and replication. [Read more](https://medium.com/@drghjph/why-medical-researchers-should-be-gits-98c3dead3bcd)
 - 🌱 I’m currently learning Dart and Flutter.
-- 📫 How to reach me: Contact details are on [my website](www.codingdoctor.co.uk].
+- 📫 How to reach me: Contact details are on [my website](www.codingdoctor.co.uk).
 
 
 ```dart 
