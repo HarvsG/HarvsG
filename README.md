@@ -1,4 +1,4 @@
-### Welcome
+### Welcome to me.dart
 
 <!--
 **HarvsG/HarvsG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,20 +15,36 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- ⚗️ I’m currently working on a GitHub clone for medical research for researchers to use for version control, collaboration and replication. [Read more](https://medium.com/@drghjph/why-medical-researchers-should-be-gits-98c3dead3bcd)
-- 🌱 I’m currently learning Dart and Flutter.
-- 📫 How to reach me: Contact details are on [my website](www.codingdoctor.co.uk).
-
 
 ```dart 
 class Me extends Human with Doctor, Developer {
   static String username = 'HarvsG';
-  static List<Languages> canCode = [Python,R,Dart,Flutter,Javascript];
+  static String website = 'www.codingdoctor.co.uk'
+  static String contact = 'doctor@codingdoctor.co.uk'
+
+  static List<Languages> canCode = [
+    Python,
+    R,
+    Dart,
+    Flutter,
+    Javascript
+    ];
+
   static Map<String,dynamic> medical = {
     'currentRole' : 'Medical Education',
     'completedRoles' : ['Medical School', 'FY1', 'FY2'],
     'toGo' : ['Core Anaesthetics', 'ICM trainee', 'Anaesthetics Trainee', 'CCT'],
-    'interests' : ['Physiology','Prehospital Medicine', 'Evidence Based Medicine'],
+    'interests' : ['Physiology','Pre-hospital Medicine', 'Evidence Based Medicine'],
   };
+
+  static List<String> ongoingProjects = [
+    'GitHub clone for clinical research',
+    'Cohort study into ECG criteria for LVH',
+    'Tinkering with raspberry pi cluster',
+    'Energy usage and production monitoring with raspberry pi'
+  ]
+
 }
+
+final me = new Me()
 ```
