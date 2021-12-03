@@ -31,9 +31,9 @@ class Me extends Human with Doctor, Developer {
     ];
 
   static Map<String,dynamic> medical = {
-    'currentRole' : 'Medical Education',
-    'completedRoles' : ['Medical School', 'FY1', 'FY2'],
-    'toGo' : ['ACCS Anaesthetics', 'ICM trainee', 'Anaesthetics Trainee', 'CCT'],
+    'currentRole' : 'ACCS Anaesthetics',
+    'completedRoles' : ['Medical School', 'FY1', 'FY2', 'Medical Education'],
+    'toGo' : ['ICM trainee', 'Anaesthetics Trainee', 'CCT'],
     'interests' : ['Physiology','Pre-hospital Medicine', 'Evidence Based Medicine'],
   };
 
