@@ -31,14 +31,14 @@ class Me extends Human with Doctor, Developer {
     ];
 
   static Map<String,dynamic> medical = {
-    'currentRole' : 'Anaesthetics ACCS 2',
-    'completedRoles' : ['Medical School', 'FY1', 'FY2', 'Medical Education FY3'],
+    'currentRole' : 'Anaesthetics ACCS 3',
+    'completedRoles' : ['Medical School', 'FY1', 'FY2', 'Medical Education FY3', 'Primary FRCA'],
     'toGo' : ['ICM trainee', 'Anaesthetics Trainee', 'CCT'],
-    'interests' : ['Physiology','Pre-hospital Medicine', 'Evidence Based Medicine'],
+    'nerdyInterests' : ['Physiology', 'Pre-hospital Medicine', 'Evidence Based Medicine', 'Machine Learning', 'Personal Finance'],
   };
 
   static List<String> ongoingProjects = [
-    'GitHub clone for clinical research',
+    'Personal finance app aimed at doctors',
     'Cohort study into ECG criteria for LVH',
     'Tinkering with raspberry pi cluster',
     'Energy usage and production monitoring with raspberry pi'
