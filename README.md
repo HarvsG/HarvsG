@@ -41,7 +41,7 @@ class Me extends Human with Doctor, Developer {
     'Personal finance app aimed at doctors',
     'Cohort study into ECG criteria for LVH',
     'Tinkering with raspberry pi cluster',
-    'Energy usage and production monitoring with raspberry pi'
+    'Home automation using and contributing to HomeAssistant'
   ]
 
 }
