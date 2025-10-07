@@ -31,10 +31,10 @@ class Me extends Human with Doctor, Developer {
     ];
 
   static Map<String,List<String>> medical = {
-    'currentRoles' : ['Anaesthetics ACCS 4'],
-    'completedRoles' : ['Medical School', 'FY1', 'FY2', 'Medical Education FY3', 'Primary FRCA'],
-    'toGo' : ['ICM trainee', 'Anaesthetics Trainee', 'CCT'],
-    'nerdyInterests' : ['Physiology', 'Pre-hospital Medicine', 'Evidence Based Medicine', 'Machine Learning', 'Personal Finance'],
+    'currentRoles' : ['Anaesthetics Higher Specialist Training', 'Anaesthetics Higher Specialist Training'],
+    'completedRoles' : ['Medical School', 'FY1', 'FY2', 'Medical Education FY3', 'Primary FRCA','ACCS Anaesthetics'],
+    'toGo' : ['FRCA', 'FFICM', 'CCT'],
+    'nerdyInterests' : ['Physiology', 'Home Automation', 'Pre-hospital Medicine', 'Evidence Based Medicine', 'Machine Learning', 'Personal Finance'],
   };
 
   static List<String> ongoingProjects = [
