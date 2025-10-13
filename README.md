@@ -18,11 +18,11 @@ Here are some ideas to get you started:
 
 ```python
 class Me(Doctor, Developer):
-    username = "HarvsG"
-    website = "www.codingdoctor.co.uk"
-    contact = "doctor@codingdoctor.co.uk"
+    username: str = "HarvsG"
+    website: str = "www.codingdoctor.co.uk"
+    contact: str = "doctor@codingdoctor.co.uk"
 
-    can_code = [
+    can_code: List[str] = [
         "Python",
         "R",
         "Dart",
@@ -30,7 +30,7 @@ class Me(Doctor, Developer):
         "JavaScript",
     ]
 
-    medical = {
+    medical: Dict[str, List[str]] = {
         "currentRoles": [
             "Anaesthetics Higher Specialist Training",
             "Intensive Care Medicine Higher Specialist Training",
@@ -54,7 +54,7 @@ class Me(Doctor, Developer):
         ],
     }
 
-    ongoing_projects = [
+    ongoing_projects: List[str] = [
         "Personal finance app aimed at doctors",
         "Cohort study into ECG criteria for LVH",
         "Tinkering with raspberry pi cluster",
@@ -62,5 +62,5 @@ class Me(Doctor, Developer):
     ]
 
 
-me = Me()
+me: Me = Me()
 ```
