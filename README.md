@@ -1,4 +1,4 @@
-### Welcome to me.dart
+### Welcome to me.py
 
 <!--
 **HarvsG/HarvsG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,35 +16,51 @@ Here are some ideas to get you started:
 -->
 
 
-```dart 
-class Me extends Human with Doctor, Developer {
-  static String username = 'HarvsG';
-  static String website = 'www.codingdoctor.co.uk'
-  static String contact = 'doctor@codingdoctor.co.uk'
+```python
+class Me(Doctor, Developer):
+    username = "HarvsG"
+    website = "www.codingdoctor.co.uk"
+    contact = "doctor@codingdoctor.co.uk"
 
-  static List<Languages> canCode = [
-    Python,
-    R,
-    Dart,
-    Flutter,
-    Javascript
-    ];
+    can_code = [
+        "Python",
+        "R",
+        "Dart",
+        "Flutter",
+        "JavaScript",
+    ]
 
-  static Map<String,List<String>> medical = {
-    'currentRoles' : ['Anaesthetics Higher Specialist Training', 'Anaesthetics Higher Specialist Training'],
-    'completedRoles' : ['Medical School', 'FY1', 'FY2', 'Medical Education FY3', 'Primary FRCA','ACCS Anaesthetics'],
-    'toGo' : ['FRCA', 'FFICM', 'CCT'],
-    'nerdyInterests' : ['Physiology', 'Home Automation', 'Pre-hospital Medicine', 'Evidence Based Medicine', 'Machine Learning', 'Personal Finance'],
-  };
+    medical = {
+        "currentRoles": [
+            "Anaesthetics Higher Specialist Training",
+            "Anaesthetics Higher Specialist Training",
+        ],
+        "completedRoles": [
+            "Medical School",
+            "FY1",
+            "FY2",
+            "Medical Education FY3",
+            "Primary FRCA",
+            "ACCS Anaesthetics",
+        ],
+        "toGo": ["FRCA", "FFICM", "CCT"],
+        "nerdyInterests": [
+            "Physiology",
+            "Home Automation",
+            "Pre-hospital Medicine",
+            "Evidence Based Medicine",
+            "Machine Learning",
+            "Personal Finance",
+        ],
+    }
 
-  static List<String> ongoingProjects = [
-    'Personal finance app aimed at doctors',
-    'Cohort study into ECG criteria for LVH',
-    'Tinkering with raspberry pi cluster',
-    'Home automation using and contributing to HomeAssistant'
-  ]
+    ongoing_projects = [
+        "Personal finance app aimed at doctors",
+        "Cohort study into ECG criteria for LVH",
+        "Tinkering with raspberry pi cluster",
+        "Home automation using and contributing to HomeAssistant",
+    ]
 
-}
 
-final me = new Me()
+me = Me()
 ```
