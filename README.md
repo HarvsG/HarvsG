@@ -33,7 +33,7 @@ class Me(Doctor, Developer):
     medical = {
         "currentRoles": [
             "Anaesthetics Higher Specialist Training",
-            "Anaesthetics Higher Specialist Training",
+            "Intensive Care Medicine Higher Specialist Training",
         ],
         "completedRoles": [
             "Medical School",
