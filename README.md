@@ -42,8 +42,9 @@ class Me(Doctor, Developer):
             "Medical Education FY3",
             "Primary FRCA",
             "ACCS Anaesthetics",
+            "Final FRCA",
         ],
-        "toGo": ["FRCA", "FFICM", "CCT"],
+        "toGo": ["FCICM", "CCT"],
         "nerdyInterests": [
             "Physiology",
             "Home Automation",
@@ -55,7 +56,6 @@ class Me(Doctor, Developer):
     }
 
     ongoing_projects: List[str] = [
-        "Personal finance app aimed at doctors",
         "Cohort study into ECG criteria for LVH",
         "Tinkering with raspberry pi cluster",
         "Home automation using and contributing to HomeAssistant",
