@@ -22,7 +22,7 @@ class Me(Doctor, Developer):
     website: str = "www.codingdoctor.co.uk"
     contact: str = "doctor@codingdoctor.co.uk"
 
-    can_code: List[str] = [
+    can_code: list[str] = [
         "Python",
         "R",
         "Dart",
@@ -30,37 +30,35 @@ class Me(Doctor, Developer):
         "JavaScript",
     ]
 
-    medical: Dict[str, List[str]] = {
-        "currentRoles": [
+    medical: dict[str, list[str]] = {
+        "current_roles": [
             "Anaesthetics Higher Specialist Training",
             "Intensive Care Medicine Higher Specialist Training",
         ],
-        "completedRoles": [
+        "completed_roles": [
             "Medical School",
-            "FY1",
-            "FY2",
+            "FY1 & FY2",
             "Medical Education FY3",
             "Primary FRCA",
             "ACCS Anaesthetics",
             "Final FRCA",
         ],
-        "toGo": ["FCICM", "CCT"],
-        "nerdyInterests": [
+        "to_go": ["FFICM", "CCT"],
+        "nerdy_interests": [
             "Physiology",
             "Home Automation",
             "Pre-hospital Medicine",
-            "Evidence Based Medicine",
+            "Evidence-Based Medicine",
             "Machine Learning",
             "Personal Finance",
         ],
     }
 
-    ongoing_projects: List[str] = [
+    ongoing_projects: list[str] = [
         "Cohort study into ECG criteria for LVH",
-        "Tinkering with raspberry pi cluster",
-        "Home automation using and contributing to HomeAssistant",
+        "Tinkering with Raspberry Pi cluster",
+        "Home automation using and contributing to Home Assistant",
     ]
 
-
-me: Me = Me()
+me = Me()
 ```
