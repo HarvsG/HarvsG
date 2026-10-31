@@ -57,7 +57,7 @@ class Me(Doctor, Developer):
     ongoing_projects: list[str] = [
         "Cohort study into ECG criteria for LVH",
         "Tinkering with Raspberry Pi cluster",
-        "Home automation using and contributing to Home Assistant",
+        "Integration and CodeOwner at Home Assistant",
     ]
 
 me = Me()
